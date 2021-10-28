@@ -1,0 +1,1 @@
+# JPA Riddle 1 - Hibernate name generation
