@@ -10,7 +10,7 @@ public class CollarLabel implements Serializable {
     @Column(name = "collar_id", nullable = false)
     private Long collarId;
 
-    @Column(name = "pet_id", nullable = false)
+    @Column(name = "collar_pet_id", nullable = false)
     private Long petId;
 
     public CollarLabel() {

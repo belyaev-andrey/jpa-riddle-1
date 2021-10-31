@@ -16,10 +16,10 @@
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
 
-            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
-            <property name="jakarta.persistence.schema-generation.create-script-source" value="create-db.sql"/>
-            <property name="jakarta.persistence.schema-generation.drop-script-source" value="drop-db.sql"/>
-            <property name="jakarta.persistence.sql-load-script-source" value="data.sql"/>
+<!--            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>-->
+<!--            <property name="jakarta.persistence.schema-generation.create-script-source" value="create-db.sql"/>-->
+<!--            <property name="jakarta.persistence.schema-generation.drop-script-source" value="drop-db.sql"/>-->
+<!--            <property name="jakarta.persistence.sql-load-script-source" value="data.sql"/>-->
         </properties>
     </persistence-unit>
 </persistence>

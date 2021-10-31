@@ -9,10 +9,6 @@ public class Collar {
     @EmbeddedId
     private CollarLabel collarLabel;
 
-    @MapsId("petId")
-    @OneToOne(orphanRemoval = true)
-    private Pet pet;
-
     @Column(name = "description")
     private String description;
 
@@ -22,14 +18,6 @@ public class Collar {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public Pet getPet() {
-        return pet;
-    }
-
-    public void setPet(Pet pet) {
-        this.pet = pet;
     }
 
     public CollarLabel getCollarLabel() {
